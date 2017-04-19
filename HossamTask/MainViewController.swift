@@ -174,15 +174,15 @@ class MainViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     }
     
     func tableViewScrollToBottom(animated: Bool) {
-//        DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(300)) {
-//            let numberOfSections = self.myTableView.numberOfSections
-//            let numberOfRows = self.myTableView.numberOfRows(inSection: numberOfSections-1)
-//            
-//            if numberOfRows > 0 {
-//                let indexPath = IndexPath(row: numberOfRows-1, section: (numberOfSections-1))
-//                self.myTableView.scrollToRow(at: indexPath, at: .bottom, animated: animated)
-//            }
-//        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(300)) {
+            let numberOfSections = self.myTableView.numberOfSections
+            let numberOfRows = self.myTableView.numberOfRows(inSection: numberOfSections-1)
+            
+            if numberOfRows > 0 {
+                let indexPath = IndexPath(row: numberOfRows-1, section: (numberOfSections-1))
+                self.myTableView.scrollToRow(at: indexPath, at: .bottom, animated: animated)
+            }
+        }
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
