@@ -203,7 +203,7 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = WL8G83XJ4Q;
 						LastSwiftMigration = 0800;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -433,14 +433,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = WL8G83XJ4Q;
 				INFOPLIST_FILE = HossamTask/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mahmoud.HossamTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "97f6472d-9753-4c0f-bce7-6bec22bbe23d";
+				PROVISIONING_PROFILE_SPECIFIER = HossamsTask_PROD;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -451,14 +452,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = WL8G83XJ4Q;
 				INFOPLIST_FILE = HossamTask/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mahmoud.HossamTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "54ed4d03-d974-4bef-851e-6de8e0c34d6d";
+				PROVISIONING_PROFILE = "97f6472d-9753-4c0f-bce7-6bec22bbe23d";
+				PROVISIONING_PROFILE_SPECIFIER = HossamsTask_PROD;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
