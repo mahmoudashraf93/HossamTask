@@ -1,0 +1,6 @@
+framework module Pods_HossamTask {
+  umbrella header "Pods-HossamTask-umbrella.h"
+
+  export *
+  module * { export * }
+}
